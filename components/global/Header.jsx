@@ -17,7 +17,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="nav__resume">
-                    <button className="resume__btn">Download CV</button>
+                    <button className="btn">Download CV</button>
                 </div>
                 <div className="nav__toggle" onClick={() => setMenuOpen(!menuOpen)}>
                     <BiGridAlt />

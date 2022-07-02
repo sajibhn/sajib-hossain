@@ -13,12 +13,23 @@
   margin-top: 100px;
 }
 
+.section__title {
+  font-size: 2.1875rem;
+  text-align: center;
+  color: $secondary;
+  @include md {
+    font-size: 2rem;
+  }
+  @include sm {
+    font-size: 1.4rem;
+  }
+}
 .flex-c {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.resume__btn {
+.btn {
   font-size: 1rem;
   color: $secondary;
   border: 1px solid $secondary;

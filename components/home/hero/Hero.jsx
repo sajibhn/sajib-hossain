@@ -12,7 +12,7 @@ const Hero = () => {
                         delectus vero accusantium porro sapiente nemo voluptates, impedit
                         quos voluptatem voluptate, optio error itaque vel quaerat.
                     </p>
-                    <button className="resume__btn">Download CV</button>
+                    <button className="btn">Download CV</button>
                 </div>
                 <div className="right">
                     <img src="/hero.svg" alt="" />
