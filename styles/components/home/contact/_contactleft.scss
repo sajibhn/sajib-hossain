@@ -1,0 +1,30 @@
+.contact__left {
+  background-color: $bg-color;
+  padding: $p8 $p4;
+  border-radius: 10px;
+
+  h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: $m4;
+  }
+
+  .form {
+    &__control {
+      margin-bottom: $m2;
+      label {
+        display: block;
+        font-size: 1rem;
+        margin-bottom: $m1;
+      }
+      .form__input {
+        width: 100%;
+        padding: $p1;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}

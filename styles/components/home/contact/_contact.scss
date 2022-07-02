@@ -1,0 +1,10 @@
+@import "./contactleft";
+@import "./contactright";
+
+.contact {
+  &__container {
+    @extend .grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: $m8;
+  }
+}

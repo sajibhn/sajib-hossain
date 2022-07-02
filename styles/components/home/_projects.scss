@@ -1,11 +1,10 @@
 .projects {
   &__container {
     margin-top: $m8;
-    margin-bottom: 200px;
     .projects__data {
       @extend .grid;
       grid-template-columns: repeat(2, 1fr);
-      background-color: #121717;
+      background-color: $bg-color;
       padding: $p4;
       border-radius: 10px;
       margin-bottom: 80px;

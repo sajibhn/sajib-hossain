@@ -1,3 +1,4 @@
+import Contact from "../components/home/contact/Contact";
 import Hero from "../components/home/hero/Hero";
 import Projects from "../components/home/projects/Projects";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <Projects />
+      <Contact />
     </>
   )
 }
