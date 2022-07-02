@@ -8,5 +8,9 @@
     align-items: start;
     margin-top: $m8;
     gap: 5rem;
+
+    @include lm {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 }

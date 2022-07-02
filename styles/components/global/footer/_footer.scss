@@ -1,0 +1,12 @@
+.footer {
+  p {
+    text-align: center;
+    padding: $p4 0;
+    @extend .flex-c;
+
+    svg {
+      margin: 0 2px;
+      color: $yellow;
+    }
+  }
+}

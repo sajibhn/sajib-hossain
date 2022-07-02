@@ -13,7 +13,7 @@
     }
 
     .hello {
-      color: #ffe600;
+      color: $yellow;
       font-size: 3rem;
       @include lm {
         font-size: 2.3rem;
