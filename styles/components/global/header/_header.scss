@@ -1,0 +1,101 @@
+.header {
+  background-color: $primary;
+  width: 100%;
+
+  .nav {
+    color: $secondary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    position: relative;
+
+    &__menu {
+      @include sm {
+        position: absolute;
+        top: -500px;
+        right: 0;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        transition: all 0.3s ease;
+        border-radius: 10px;
+      }
+      .nav__list {
+        display: flex;
+        gap: $m4;
+        padding: $p6 $p3;
+        @include sm {
+          flex-direction: column;
+          gap: $m1;
+        }
+        .nav__link {
+          color: $secondary;
+          position: relative;
+          padding: $p1 0;
+          @include sm {
+            width: 100%;
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: $secondary;
+            transition: all 0.3s ease;
+
+            @include sm {
+              display: none;
+            }
+          }
+          &:hover::before {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    &__logo {
+      font-size: 1.5rem;
+    }
+    &__toggle {
+      font-size: 1.5rem;
+      cursor: pointer;
+      display: none;
+      @include sm {
+        display: block;
+      }
+    }
+
+    &__resume {
+      @include sm {
+        display: none;
+      }
+      button {
+        font-size: 1rem;
+        color: $secondary;
+        border: 1px solid $secondary;
+        background-color: transparent;
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: $secondary;
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+
+.active {
+  .nav {
+    &__menu {
+      top: calc(85px + 2rem);
+    }
+  }
+}
