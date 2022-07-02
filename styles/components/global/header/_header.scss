@@ -1,6 +1,9 @@
 .header {
   background-color: $primary;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 
   .nav {
     color: $secondary;
@@ -9,6 +12,7 @@
     align-items: center;
     height: 85px;
     position: relative;
+    border-bottom: 1px solid rgb(194, 183, 183);
 
     &__menu {
       @include sm {
@@ -19,6 +23,7 @@
         width: 100%;
         transition: all 0.3s ease;
         border-radius: 10px;
+        border: 1px solid rgb(255, 255, 255);
       }
       .nav__list {
         display: flex;
@@ -71,22 +76,6 @@
     &__resume {
       @include sm {
         display: none;
-      }
-      button {
-        font-size: 1rem;
-        color: $secondary;
-        border: 1px solid $secondary;
-        background-color: transparent;
-        display: inline-block;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-
-        &:hover {
-          background-color: $secondary;
-          color: $primary;
-        }
       }
     }
   }
