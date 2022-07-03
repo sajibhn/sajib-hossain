@@ -11,9 +11,9 @@ const Header = () => {
                 </div>
                 <div className="nav__menu">
                     <ul className="nav__list">
-                        <li className="nav__item"><a href="#home" className="nav__link">Home</a></li>
-                        <li className="nav__item"><a href="#projects" className="nav__link">Projects</a></li>
-                        <li className="nav__item"><a href="#contact" className="nav__link">Contact</a></li>
+                        <li className="nav__item"><a href="#home" className="nav__link" onClick={() => setMenuOpen(false)}>Home</a></li>
+                        <li className="nav__item"><a href="#projects" className="nav__link" onClick={() => setMenuOpen(false)}>Projects</a></li>
+                        <li className="nav__item"><a href="#contact" className="nav__link" onClick={() => setMenuOpen(false)}>Contact</a></li>
                     </ul>
                 </div>
                 <div className="nav__resume">

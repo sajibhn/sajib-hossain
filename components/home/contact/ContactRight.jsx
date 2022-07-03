@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { AiOutlineTwitter } from 'react-icons/ai'
+import { DiGithubAlt } from 'react-icons/di'
 
 const ContactRight = () => {
     return (
@@ -20,6 +21,9 @@ const ContactRight = () => {
                     </a>
                     <a href="#" className="social__link">
                         <AiOutlineTwitter />
+                    </a>
+                    <a href="#" className="social__link">
+                        <DiGithubAlt />
                     </a>
                 </div>
             </div>
