@@ -1,0 +1,31 @@
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+  padding: 40px 0;
+  text-align: center;
+  color: $secondary;
+  min-height: 100vh;
+  @extend .flex-c;
+
+  .four_zero_four_bg {
+    border: 1px solid $secondary;
+    background-position: center;
+    padding: 100px 0;
+
+    h1 {
+      font-size: 4rem;
+      text-align: center;
+    }
+  }
+}
+
+.contant_box_404 {
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    margin-bottom: $m3;
+  }
+}
