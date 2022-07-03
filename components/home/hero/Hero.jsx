@@ -1,4 +1,6 @@
 import React from "react";
+import Typewriter from 'typewriter-effect';
+
 
 const Hero = () => {
     return (
@@ -6,7 +8,15 @@ const Hero = () => {
             <div className="hero__container container">
                 <div className="left">
                     <h3 className="hello">Hello,</h3>
-                    <h2 className="heading">I am Sajib</h2>
+                    <h2 className="heading">I am
+                        <Typewriter
+                            options={{
+                                strings: [' Sajib Hossain', ' A Web Developer'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
+                    </h2>
                     <p className="description">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
                         delectus vero accusantium porro sapiente nemo voluptates, impedit
