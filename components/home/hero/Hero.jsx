@@ -15,7 +15,7 @@ const Hero = () => {
                                 strings: [
                                     " Sajib Hossain",
                                     " A Web Developer",
-                                    " A Pizza Lover",
+                                    " A Football Fan",
                                 ],
                                 autoStart: true,
                                 loop: true,
@@ -30,7 +30,7 @@ const Hero = () => {
                     <button className="btn">Download CV</button>
                 </div>
                 <div className="right">
-                    <Image src="/hero.svg" width={366} height={319} alt="" />
+                    <Image src="/hero.svg" width={366} height={319} alt="hero img" />
                 </div>
             </div>
         </section>
