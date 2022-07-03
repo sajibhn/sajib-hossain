@@ -1,8 +1,10 @@
+import { useRouter } from 'next/router';
 import Header from '../components/global/Header'
 import '../styles/main.scss'
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
   return <>
-    <Header />
+    {router.pathname !== "/404" && <Header />}
     <Component {...pageProps} />
   </>
 }
