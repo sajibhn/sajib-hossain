@@ -16,13 +16,13 @@ const ContactRight = () => {
             <div className='social__media'>
                 <h3>social media</h3>
                 <div>
-                    <a href="#" className="social__link">
+                    <a href="https://www.linkedin.com/in/sajibhn/" target="_blank" rel='noreferrer' className="social__link">
                         <FaLinkedinIn />
                     </a>
-                    <a href="#" className="social__link">
+                    <a href="https://twitter.com/sajib_hsn" target="_blank" rel='noreferrer' className="social__link">
                         <AiOutlineTwitter />
                     </a>
-                    <a href="#" className="social__link">
+                    <a href="https://github.com/sajibhn" target="_blank" rel='noreferrer' className="social__link">
                         <DiGithubAlt />
                     </a>
                 </div>
