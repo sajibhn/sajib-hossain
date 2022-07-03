@@ -37,6 +37,7 @@
       color: $secondary;
       font-size: 1.2rem;
       margin-bottom: $m4;
+      max-width: 730px;
       @include lm {
         font-size: 1.2rem;
       }
@@ -77,4 +78,5 @@
 
 .Typewriter {
   display: inline;
+  color: $yellow;
 }

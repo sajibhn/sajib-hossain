@@ -1,6 +1,6 @@
+import Image from "next/image";
 import React from "react";
-import Typewriter from 'typewriter-effect';
-
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
     return (
@@ -8,24 +8,29 @@ const Hero = () => {
             <div className="hero__container container">
                 <div className="left">
                     <h3 className="hello">Hello,</h3>
-                    <h2 className="heading">I am
+                    <h2 className="heading">
+                        I am
                         <Typewriter
                             options={{
-                                strings: [' Sajib Hossain', ' A Web Developer'],
+                                strings: [
+                                    " Sajib Hossain",
+                                    " A Web Developer",
+                                    " A Pizza Lover",
+                                ],
                                 autoStart: true,
                                 loop: true,
                             }}
                         />
                     </h2>
                     <p className="description">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
-                        delectus vero accusantium porro sapiente nemo voluptates, impedit
-                        quos voluptatem voluptate, optio error itaque vel quaerat.
+                        I&#39;m an ambitious, commercially focused website developer. I love
+                        building beautiful interfaces, web apps, and everything in between!
+                        I&#39;m currently seeking a role as a Frontend Developer.
                     </p>
                     <button className="btn">Download CV</button>
                 </div>
                 <div className="right">
-                    <img src="/hero.svg" alt="" />
+                    <Image src="/hero.svg" width={366} height={319} alt="" />
                 </div>
             </div>
         </section>
