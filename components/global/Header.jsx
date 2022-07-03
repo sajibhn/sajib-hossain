@@ -12,6 +12,7 @@ const Header = () => {
                 <div className="nav__menu">
                     <ul className="nav__list">
                         <li className="nav__item"><a href="#home" className="nav__link" onClick={() => setMenuOpen(false)}>Home</a></li>
+                        <li className="nav__item"><a href="#about" className="nav__link" onClick={() => setMenuOpen(false)}>About Me</a></li>
                         <li className="nav__item"><a href="#projects" className="nav__link" onClick={() => setMenuOpen(false)}>Projects</a></li>
                         <li className="nav__item"><a href="#contact" className="nav__link" onClick={() => setMenuOpen(false)}>Contact</a></li>
                     </ul>
