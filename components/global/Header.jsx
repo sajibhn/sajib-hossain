@@ -7,7 +7,9 @@ const Header = () => {
         <header className={`${menuOpen ? 'header active' : 'header'}`}>
             <nav className="nav container">
                 <div className="nav__logo">
-                    <h3>Saj</h3>
+                    <a href="#home">
+                        <h3>Saj</h3>
+                    </a>
                 </div>
                 <div className="nav__menu">
                     <ul className="nav__list">
