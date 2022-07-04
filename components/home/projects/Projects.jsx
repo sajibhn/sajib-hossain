@@ -1,94 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Projects = () => {
+const Projects = (data) => {
+    const [portfolio, setPortfolio] = useState(data)
     return (
         <section className="section projects" id="projects">
             <h2 className="section__title">Projects</h2>
             <div className="projects__container container">
-                <div className="projects__data">
-                    <div className="projects__left">
-                        <h2>Ecommerceo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nisi
-                            reiciendis quos necessitatibus molestias, aspernatur eius maxime
-                            voluptates, saepe similique ratione cupiditate delectus quaerat
-                            natus.
-                        </p>
-                        <div className="project__buttons">
-                            <a className="btn">code</a>
-                            <a className="btn">live</a>
-                        </div>
-                        <div className="project__tags">
-                            <div>
-                                <p>tech used :</p>
+                {portfolio?.data?.data?.map((item) => {
+                    const { id, title, description, code, live, tech, image } = item
+                    return <React.Fragment key={id}>
+                        <div className="projects__data" >
+                            <div className="projects__left">
+                                <h2>{title}</h2>
+                                <p>
+                                    {description}
+                                </p>
+                                <div className="project__buttons">
+                                    <a href={code} target="_blank" rel="noreferrer" className="btn">code</a>
+                                    <a href={live} target="_blank" rel="noreferrer" className="btn">live</a>
+                                </div>
+                                <div className="project__tags">
+                                    <p>tech used :</p>
+                                    <div className="tech">
+                                        {
+                                            tech?.map((techItems) => {
+                                                return <>
+                                                    <span className="tags">{techItems}</span>
+                                                </>
+                                            })
+                                        }
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <span className="tags">HTML</span>
-                                <span className="tags">CSS</span>
-                                <span className="tags">Javascript</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="projects__right">
-                        <div className="scroll__img" style={{ backgroundImage: 'url(/fusiontrans.webp)' }}></div>
-                    </div>
-                </div>
-                <div className="projects__data">
-                    <div className="projects__left">
-                        <h2>Ecommerceo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nisi
-                            reiciendis quos necessitatibus molestias, aspernatur eius maxime
-                            voluptates, saepe similique ratione cupiditate delectus quaerat
-                            natus.
-                        </p>
-                        <div className="project__buttons">
-                            <a className="btn">code</a>
-                            <a className="btn">live</a>
-                        </div>
-                        <div className="project__tags">
-                            <div>
-                                <p>tech used :</p>
-                            </div>
-                            <div>
-                                <span className="tags">HTML</span>
-                                <span className="tags">CSS</span>
-                                <span className="tags">Javascript</span>
+                            <div className="projects__right">
+                                <div className="scroll__img" style={{ backgroundImage: `url(${image})` }}></div>
                             </div>
                         </div>
-                    </div>
-                    <div className="projects__right">
-                        <div className="scroll__img" style={{ backgroundImage: 'url(/fusiontrans.webp)' }}></div>
-                    </div>
-                </div>
-                <div className="projects__data">
-                    <div className="projects__left">
-                        <h2>Ecommerceo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nisi
-                            reiciendis quos necessitatibus molestias, aspernatur eius maxime
-                            voluptates, saepe similique ratione cupiditate delectus quaerat
-                            natus.
-                        </p>
-                        <div className="project__buttons">
-                            <a className="btn">code</a>
-                            <a className="btn">live</a>
-                        </div>
-                        <div className="project__tags">
-                            <div>
-                                <p>tech used :</p>
-                            </div>
-                            <div>
-                                <span className="tags">HTML</span>
-                                <span className="tags">CSS</span>
-                                <span className="tags">Javascript</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="projects__right">
-                        <div className="scroll__img" style={{ backgroundImage: 'url(/fusiontrans.webp)' }}></div>
-                    </div>
-                </div>
+                    </React.Fragment>
+                })}
             </div>
         </section>
     );

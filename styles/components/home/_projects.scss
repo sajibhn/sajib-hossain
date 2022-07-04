@@ -5,6 +5,7 @@
       @extend .grid;
       grid-template-columns: repeat(2, 1fr);
       background-color: $bg-color;
+      align-items: start;
       padding: $p4;
       border-radius: 10px;
       margin-bottom: 80px;
@@ -38,19 +39,26 @@
         padding-top: $p3;
         border-top: 1px solid rgb(194, 183, 183);
         display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
         flex-wrap: wrap;
         gap: 20px;
         text-transform: capitalize;
 
         p {
           font-size: 0.9rem;
+          margin: auto 0;
         }
-        .tags {
-          border: 1px solid $secondary;
-          margin-left: $m1;
-          padding: 5px 10px;
-          border-radius: 100px;
-          font-size: 0.7rem;
+        .tech {
+          display: flex;
+          flex-wrap: wrap;
+          gap: $m1;
+          .tags {
+            border: 1px solid $secondary;
+            padding: 5px 10px;
+            border-radius: 100px;
+            font-size: 0.7rem;
+          }
         }
       }
       .projects__right {
@@ -60,8 +68,7 @@
           background-size: cover;
           background-repeat: no-repeat;
           background-position: top;
-          -webkit-transition: ease-in-out 5s;
-          transition: ease-in-out 5s;
+          transition: ease 10s;
           &:hover {
             background-position: bottom;
           }

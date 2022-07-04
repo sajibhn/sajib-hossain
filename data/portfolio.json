@@ -1,0 +1,57 @@
+{
+  "portfolio": [
+    {
+      "id": "1",
+      "title": "EasyItPoint Landing Page",
+      "description": "An agency website that provides services like SEO, Web Design and development, and Graphic Design. I have used pure HTML, CSS, and Javascript to build this website and deploy it to Github pages.",
+      "code": "https://github.com/sajibhn/easyitpoint",
+      "live": "https://sajibhn.github.io/easyitpoint/",
+      "tech": ["HTML", "CSS", "Javascript", "Swiper JS"],
+      "image": "/portfolio/easyitpoint.png"
+    },
+    {
+      "id": "2",
+      "title": "Saj Architechture",
+      "description": "An architecture agency website that describes their agency and showcases their recent architectural projects. I have used React JS and Sass to build this website and deploy it to Netlify.",
+      "code": "https://github.com/sajibhn/saj-arc",
+      "live": "https://saj-arc.netlify.app/",
+      "tech": ["React", "Sass", "React router", "Swiper JS"],
+      "image": "/portfolio/saj-arc.png"
+    },
+    {
+      "id": "3",
+      "title": "Saj Crypto",
+      "description": "A cryptocurrency website that shows information and news about cryptocurrencies. I have added functionality where users can mark their favorite currency to their favorite page and visit them any time. I have used React JS and Material UI to build the UI, and I have also used Redux Persist to manage states and RTK Query to fetch the data from CoingGecko and Bing news search API.",
+      "code": "https://github.com/sajibhn/saj-crypto",
+      "live": "https://saj-crypto.netlify.app/",
+      "tech": [
+        "React",
+        "Material UI",
+        "React router",
+        "RTK Query",
+        "Redux toolkit",
+        "CoinGecko API",
+        "Chart JS"
+      ],
+      "image": "/portfolio/saj-crypto.png"
+    },
+    {
+      "id": "4",
+      "title": "Saj Estate",
+      "description": "A property listing website that shows information about properties that a user can buy or rent. I have used Next JS and Sass to build the UI, and Strapi headless CMS as a backend. I have used Graphql to fetch data and Context API to manage states.",
+      "code": "https://github.com/sajibhn/saj-estate",
+      "live": "https://youtu.be/rYrmswknS48",
+      "tech": ["Next JS", "Sass", "Swiper JS", "Strapi", "Graphql"],
+      "image": "/portfolio/saj-estate.png"
+    },
+    {
+      "id": "5",
+      "title": "Ecommerceo",
+      "description": "An eCommerce website where a customer buys products. I have implemented a filtering option that sorts the products by their category. I have used Next js and Sass to build the UI and Sanity headless CMS as a backend. I am fetching data using GROQ and managing states using Context API.",
+      "code": "https://github.com/sajibhn/ecommerceo",
+      "live": "https://ecommerceo.vercel.app/",
+      "tech": ["Next JS", "Sass", "Sanity", "Swiper JS"],
+      "image": "/portfolio/ecommerceo.png"
+    }
+  ]
+}
