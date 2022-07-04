@@ -24,9 +24,10 @@ const ContactLeft = () => {
     const { register, handleSubmit, formState: { errors }, reset } = useForm()
     async function onSubmitForm(values) {
         if (values.name.trim() === '' || values.message.trim() === '') {
-            window.alert('please put white spaces')
+            window.alert("please don't put only white spaces")
             return
         }
+        showAlert(true, 'success', "sending your submission")
         let config = {
             method: 'post',
             url: `${process.env.NEXT_PUBLIC_API_URL}/api/contact`,
@@ -40,12 +41,12 @@ const ContactLeft = () => {
             const response = await axios(config)
             if (response.status === 200) {
                 reset()
-                showAlert(true, 'success', "thank you for your submission. I will contact you soon")
+                showAlert(true, 'success', "thank you for your message. I will contact you soon")
                 console.log('sucess')
             }
         }
         catch (err) {
-            showAlert(true, 'failed', "something went wront")
+            showAlert(true, 'failed', "something went wrong")
             console.log(err)
         }
     }

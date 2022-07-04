@@ -7,7 +7,7 @@ const About = () => {
             <h2 className="section__title">About Me</h2>
             <div className="about__container container">
                 <div className="about__left">
-                    <Image src="/about.svg" alt="about img" width={440} height={275} />
+                    <Image src="/about.svg" alt="about img" width={440} height={320} />
                 </div>
                 <div className="about__right">
                     <p className="about__text">

@@ -30,7 +30,8 @@ const Hero = () => {
                     <button className="btn">Download CV</button>
                 </div>
                 <div className="right">
-                    <Image src="/hero.svg" width={366} height={319} alt="hero img" />
+                    <Image src="/hero.svg" width={366} height={355} alt="hero img" />
+                    {/* <img src="/hero.svg" alt="hero img" /> */}
                 </div>
             </div>
         </section>

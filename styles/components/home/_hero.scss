@@ -79,4 +79,7 @@
 .Typewriter {
   display: inline;
   color: $yellow;
+  @include sm {
+    display: block;
+  }
 }

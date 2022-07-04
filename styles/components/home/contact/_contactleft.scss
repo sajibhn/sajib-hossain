@@ -20,6 +20,7 @@
       .form__input {
         width: 100%;
         padding: $p1;
+        background-color: $secondary;
 
         &:focus {
           outline: none;
@@ -37,10 +38,12 @@
   border: 1px solid #d4edda;
   margin-top: $m2;
   padding: 5px;
+  transition: all 0.3s ease;
 }
 
 .failed {
-  border: 1px solid #f8d7da;
+  border: 1px solid red;
   margin-top: $m2;
   padding: 5px;
+  transition: all 0.3s ease;
 }
