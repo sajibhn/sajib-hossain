@@ -40,7 +40,7 @@
       "title": "Saj Estate",
       "description": "A property listing website that shows information about properties that a user can buy or rent. I have used Next JS and Sass to build the UI, and Strapi headless CMS as a backend. I have used Graphql to fetch data and Context API to manage states.",
       "code": "https://github.com/sajibhn/saj-estate",
-      "live": "https://youtu.be/rYrmswknS48",
+      "live": "https://saj-estate.vercel.app",
       "tech": ["Next JS", "Sass", "Swiper JS", "Strapi", "Graphql"],
       "image": "/portfolio/saj-estate.png"
     },

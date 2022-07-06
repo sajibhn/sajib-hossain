@@ -8,7 +8,6 @@ const Projects = (data) => {
             <div className="projects__container container">
                 {portfolio?.data?.data?.map((item) => {
                     const { id, title, description, code, live, tech, image } = item
-                    const video = title === 'Saj Estate' ? "video" : 'live';
                     return <React.Fragment key={id}>
                         <div className="projects__data" >
                             <div className="projects__left">
@@ -18,7 +17,7 @@ const Projects = (data) => {
                                 </p>
                                 <div className="project__buttons">
                                     <a href={code} target="_blank" rel="noreferrer" className="btn">code</a>
-                                    <a href={live} target="_blank" rel="noreferrer" className="btn">{video}
+                                    <a href={live} target="_blank" rel="noreferrer" className="btn">live
                                     </a>
                                 </div>
                                 <div className="project__tags">

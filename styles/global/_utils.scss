@@ -30,10 +30,10 @@
     content: "";
     display: block;
     width: 160px;
-    height: 30%;
+    height: 4px;
     background-color: $yellow;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
