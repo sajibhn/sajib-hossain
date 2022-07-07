@@ -20,7 +20,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="nav__resume">
-                    <button className="btn">Download CV</button>
+                    <a href='/pdf/sajib-hossain-frontend-developer.pdf' download="sajib-hossain-frontend-developer.pdf" className="btn">Download CV</a>
                 </div>
                 <div className="nav__toggle" onClick={() => setMenuOpen(!menuOpen)}>
                     <BiGridAlt />

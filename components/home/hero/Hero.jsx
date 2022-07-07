@@ -27,11 +27,10 @@ const Hero = () => {
                         building beautiful interfaces, web apps, and everything in between!
                         I&#39;m currently seeking a role as a Frontend Developer.
                     </p>
-                    <button className="btn">Download CV</button>
+                    <a href='/pdf/sajib-hossain-frontend-developer.pdf' download="sajib-hossain-frontend-developer.pdf" className="btn">Download CV</a>
                 </div>
                 <div className="right">
                     <Image src="/hero.svg" width={366} height={355} alt="hero img" />
-                    {/* <img src="/hero.svg" alt="hero img" /> */}
                 </div>
             </div>
         </section>
