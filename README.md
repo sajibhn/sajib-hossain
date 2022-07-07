@@ -1,3 +1,27 @@
+# Sajib Hossain - This is my portfolio website
+
+I have developed this website using Next js and Sass. To make the contact form I used Nodemailer and React Form Hook.
+
+
+## Links
+
+- Solution URL: https://github.com/sajibhn/sajib-hossain
+- Live Site URL: https://sajib-hossain.vercel.app/
+
+
+## Technologies
+
+- Next JS - [Link](https://nextjs.org/)
+- Sass
+- React icons - [Link](https://react-icons.github.io/react-icons/)
+- React Form Hook - [Link](https://react-hook-form.com/)
+
+
+## Author
+
+- Sajib Hossain - [twitter](https://twitter.com/sajib_hsn)
+- Sajib Hossain - [Linked in](https://www.linkedin.com/in/sajib-hossain-17929b225/)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
