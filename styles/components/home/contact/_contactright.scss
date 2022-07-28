@@ -4,7 +4,13 @@
     padding: $p4;
     margin-bottom: $m4;
     border-radius: 10px;
-    max-width: 395px;
+    width: 395px;
+    max-width: 100%;
+    height: auto;
+
+    @include sm{
+      width: 100%;
+    }
 
     h3 {
       font-size: 1.5rem;
@@ -14,6 +20,8 @@
     div {
       p {
         margin-bottom: $m1;
+        word-break: break-all;
+        white-space: normal;
       }
     }
   }
@@ -23,7 +31,11 @@
     padding: $p4;
     margin-bottom: $m4;
     border-radius: 10px;
-    max-width: 395px;
+    width: 395px;
+    max-width: 100%;
+    @include sm{
+      width: 100%;
+    }
 
     h3 {
       font-size: 1.5rem;

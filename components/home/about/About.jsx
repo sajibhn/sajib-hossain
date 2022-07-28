@@ -7,13 +7,12 @@ const About = () => {
             <h2 className="section__title">About Me</h2>
             <div className="about__container container">
                 <div className="about__left">
-                    <Image src="/about.svg" alt="about img" width={440} height={320} />
+                    <img src="/about.svg" alt="about img" />
                 </div>
                 <div className="about__right">
                     <p className="about__text">
-                        I was introduced to programming when I wanted to create a
-                        book-selling website. However, I couldn&#39;t start my start-up, but
-                        since then, I have been exploring all sorts of technologies.
+                        I got my start programming when I started a book-selling website.
+                        Ever since then I have been learning and building everything I can get my hands on.
                     </p>
                     <br />
                     <p className="about__text">

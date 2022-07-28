@@ -37,21 +37,21 @@
     },
     {
       "id": "4",
+      "title": "Job Hunting",
+      "description": "Developed a website for job seekers using React JS, Bootstrap 5. Added dynamic routes using React Router. Built API using Node JS and Express JS. Stored Data in MongoDB",
+      "code": "https://github.com/sajibhn/job-hunting",
+      "live": "https://job-hunting-silk.vercel.app",
+      "tech": ["React", "Bootstrap 5", "React router", "Node.js", "Express", "MongoDB"],
+      "image": "/portfolio/job-hunting.png"
+    },
+    {
+      "id": "5",
       "title": "Ecommerceo",
       "description": "Developed an eCommerce website using Next JS and Sass. Stored data in Sanity headless CMS. Fetched the data using GROQ and used the Context API to manage states. ",
       "code": "https://github.com/sajibhn/ecommerceo",
       "live": "https://ecommerceo.vercel.app/",
       "tech": ["Next JS", "Sass", "Sanity", "Swiper JS"],
       "image": "/portfolio/ecommerceo.png"
-    },
-    {
-      "id": "5",
-      "title": "Saj Architechture",
-      "description": "Developed a website for an Architecture agency using React JS, Sass. Added dynamic routes using React Router.",
-      "code": "https://github.com/sajibhn/saj-arc",
-      "live": "https://saj-arc.netlify.app/",
-      "tech": ["React", "Sass", "React router", "Swiper JS"],
-      "image": "/portfolio/saj-arc.png"
     }
   ]
 }
