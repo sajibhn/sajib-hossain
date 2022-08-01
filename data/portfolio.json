@@ -3,16 +3,16 @@
     {
       "id": "1",
       "title": "EasyItPoint Landing Page",
-      "description": "Developed a landing page for an agency website using HTML, CSS and Swiper JS to create a responsive and user-friendly UI. Implemented dynamic functionality using Javascript and deployed through Github pages.",
+      "description": "Designed and developed a responsive website for Easy IT Point that helps users to explore their services. Added a slider that shows reviews of users. Added animation to make the website more attractive.",
       "code": "https://github.com/sajibhn/easyitpoint",
       "live": "https://sajibhn.github.io/easyitpoint/",
       "tech": ["HTML", "CSS", "Javascript", "Swiper JS"],
-      "image": "/portfolio/easyitpoint.png"
+      "image": "/portfolio/easyitpoint.webp"
     },
     {
       "id": "2",
       "title": "Saj Crypto",
-      "description": "Developed a cryptocurrency website that shows information and news about cryptocurrencies using React JS and Material UI. Added functionality where users can mark their favorite currency and it will show on the favorite page. Implemented Redux toolkit and Redux Persist to manage and store states. Fetched data using RTK Query from CoinGecko and Bing news search API.",
+      "description": "Developed a web application that shows a list of cryptocurrencies and news-related cryptocurrencies. Implemented a chart that uses real-time data. Added an 'add to favorite' functionality that allows users to store their favorite cryptocurrency.",
       "code": "https://github.com/sajibhn/saj-crypto",
       "live": "https://saj-crypto.netlify.app/",
       "tech": [
@@ -24,34 +24,34 @@
         "CoinGecko API",
         "Chart JS"
       ],
-      "image": "/portfolio/saj-crypto.png"
+      "image": "/portfolio/saj-crypto.webp"
     },
     {
       "id": "3",
       "title": "Saj Estate",
-      "description": "Developed a property listing website using Next JS and Sass.  Stored data in Strapi headless CMS and deployed it through Heroku. Fetched the data using GraphQL and used the Context API to manage states. Created dynamic routes using getStaticPaths and static site generation using getStaticProps.",
+      "description": "Built a website that helps users to find available properties to buy or rent. Implemented serverless CMS which allows admins to update property listings. Added filtering functionality that sorts listings by categories.",
       "code": "https://github.com/sajibhn/saj-estate",
       "live": "https://saj-estate.vercel.app",
       "tech": ["Next JS", "Sass", "Swiper JS", "Strapi", "Graphql"],
-      "image": "/portfolio/saj-estate.png"
+      "image": "/portfolio/saj-estate.webp"
     },
     {
       "id": "4",
       "title": "Job Hunting",
-      "description": "Developed a website for job seekers using React JS, Bootstrap 5. Added dynamic routes using React Router. Built API using Node JS and Express JS. Stored Data in MongoDB",
+      "description": "Developed a web application that helps a user to keep track of their job applications. Added functionality that allows users to create, read, update, and delete their job application records. Implemented Login and logout functionality.",
       "code": "https://github.com/sajibhn/job-hunting",
       "live": "https://job-hunting-silk.vercel.app",
       "tech": ["React", "Bootstrap 5", "React router", "Node.js", "Express", "MongoDB"],
-      "image": "/portfolio/job-hunting.png"
+      "image": "/portfolio/job-hunting.webp"
     },
     {
       "id": "5",
       "title": "Ecommerceo",
-      "description": "Developed an eCommerce website using Next JS and Sass. Stored data in Sanity headless CMS. Fetched the data using GROQ and used the Context API to manage states. ",
+      "description": "Developed an ecommerce website that shows a list of products. Built a backend that allows admins to add new products. Added functionalities that allows customer to add new products to their cart.",
       "code": "https://github.com/sajibhn/ecommerceo",
       "live": "https://ecommerceo.vercel.app/",
       "tech": ["Next JS", "Sass", "Sanity", "Swiper JS"],
-      "image": "/portfolio/ecommerceo.png"
+      "image": "/portfolio/ecommerceo.webp"
     }
   ]
 }

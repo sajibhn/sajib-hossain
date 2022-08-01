@@ -25,7 +25,7 @@ const Hero = () => {
                     <p className="description">
                         I&#39;m an ambitious, commercially focused, full-stack website developer. I love building beautiful interfaces, web apps, and everything in between!
                     </p>
-                    <a href='/pdf/sajib-hossain-frontend-developer.pdf' download="sajib-hossain-frontend-developer.pdf" className="btn">Download CV</a>
+                    <a href='/pdf/sajib-hossain-fullstack-developer.pdf' download="sajib-hossain-frontend-developer.pdf" className="btn">Download CV</a>
                 </div>
                 <div className="right">
                     <img src="/hero.svg" alt="hero img" />
