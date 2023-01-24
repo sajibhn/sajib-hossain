@@ -5,7 +5,7 @@
       "title": "EasyItPoint Landing Page",
       "description": "Designed and developed a responsive website for Easy IT Point that helps users to explore their services. Added a slider that shows reviews of users. Added animation to make the website more attractive.",
       "code": "https://github.com/sajibhn/easyitpoint",
-      "live": "https://sajibhn.github.io/easyitpoint/",
+      "demo": "https://sajibhn.github.io/easyitpoint/",
       "tech": ["HTML", "CSS", "Javascript", "Swiper JS"],
       "image": "/portfolio/easyitpoint.webp"
     },
@@ -14,7 +14,7 @@
       "title": "Saj Crypto",
       "description": "Developed a web application that shows a list of cryptocurrencies and news-related cryptocurrencies. Implemented a chart that uses real-time data. Added an 'add to favorite' functionality that allows users to store their favorite cryptocurrency.",
       "code": "https://github.com/sajibhn/saj-crypto",
-      "live": "https://saj-crypto.netlify.app/",
+      "demo": "https://youtu.be/6841ZpSNXVs",
       "tech": [
         "React",
         "Material UI",
@@ -31,7 +31,7 @@
       "title": "Saj Estate",
       "description": "Built a website that helps users to find available properties to buy or rent. Implemented serverless CMS which allows admins to update property listings. Added filtering functionality that sorts listings by categories.",
       "code": "https://github.com/sajibhn/saj-estate",
-      "live": "https://saj-estate.vercel.app",
+      "demo": "https://youtu.be/v0d5DWJLfts",
       "tech": ["Next JS", "Sass", "Swiper JS", "Strapi", "Graphql"],
       "image": "/portfolio/saj-estate.webp"
     },
@@ -40,18 +40,16 @@
       "title": "Job Hunting",
       "description": "Developed a web application that helps a user to keep track of their job applications. Added functionality that allows users to create, read, update, and delete their job application records. Implemented Login and logout functionality.",
       "code": "https://github.com/sajibhn/job-hunting",
-      "live": "https://job-hunting-silk.vercel.app",
-      "tech": ["React", "Bootstrap 5", "React router", "Node.js", "Express", "MongoDB"],
+      "demo": "https://youtu.be/ykfxN1mVMcE",
+      "tech": [
+        "React",
+        "Bootstrap 5",
+        "React router",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
       "image": "/portfolio/job-hunting.webp"
-    },
-    {
-      "id": "5",
-      "title": "Ecommerceo",
-      "description": "Developed an ecommerce website that shows a list of products. Built a backend that allows admins to add new products. Added functionalities that allows customer to add new products to their cart.",
-      "code": "https://github.com/sajibhn/ecommerceo",
-      "live": "https://ecommerceo.vercel.app/",
-      "tech": ["Next JS", "Sass", "Sanity", "Swiper JS"],
-      "image": "/portfolio/ecommerceo.webp"
     }
   ]
 }
